@@ -1,0 +1,270 @@
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: white;
+    
+}
+
+.container{
+    width: 1340px;
+    margin: auto;
+}
+
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Header */
+
+header{
+    width: 1340px;
+    padding: 15px ;
+    padding-left: 30px;
+    /* You will give a values.X axis,Y axis,spread,color */
+    box-shadow: 1px 1px 10px rgb(145, 144, 144);
+}
+
+.header_logo{
+    width: 90px;
+    height: 30px;
+    
+    
+}
+
+.logo_support{
+    font-size: 22px;
+    padding-left: 10px;
+    color: rgb(92, 91, 91);
+    
+
+}
+
+.header_nav{
+    margin-left: 50px;
+    margin-top: 5px;
+}
+
+.header_nav a{
+    text-decoration: none;
+    color: rgb(139, 139, 139);
+    margin-right: 30px;
+}
+
+.header_nav a:hover{
+    color: black;
+}
+
+.header_button{
+    margin-top: 5px;
+    margin-left: 380px;
+    width: 430px;
+    
+}
+
+.header_button a{
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px ;
+    border-radius: 5px;
+    
+}
+
+.header_button_one{
+    color: dodgerblue;
+    
+}
+
+.header_button_one:hover{
+    color: rgb(124, 124, 124);
+    background-color: rgb(236, 236, 236);
+}
+.header_button_two{
+    background-color:rgb(89, 89, 250);
+    color: white;
+}
+
+.header_button_two:hover{
+    background-color: rgb(37, 37, 168);
+    
+}
+
+/* Start title */
+.title{
+    margin-top: 50px;
+}
+.title_one{
+    width: 40%;
+    padding:20px;
+    padding-left:60px;
+}
+
+.title_one h1{
+    font-size: 60px;
+    color: rgb(43, 43, 43);
+}
+
+.para{
+    font-size: 18px;
+    
+}
+.title_two{
+    width: 50%;
+    margin:auto;
+}
+.title_two video{
+    width: 85%;
+
+}
+.uses{
+    width: 1340px;
+    margin-top: 100px;
+    display:flex;
+    background-color: rgb(245, 244, 244);
+
+}
+.use1{
+    border: 1px solid rgb(224, 222, 222);
+    padding-left:  60px;
+    padding-right: 40px;
+    padding-top: 25px;
+    padding-bottom: 40px;
+    font-size: large; 
+    
+    
+}
+.use1_h1{
+    border-bottom: 1px solid;
+    
+}
+
+.uses p{
+    color: rgb(97, 97, 97);
+}
+.use2{
+    border: 1px solid rgb(224, 222, 222);
+    padding: 0px 42px;
+    padding-top: 20px;
+    font-size: large;
+}
+.use3{
+    border: 1px solid rgb(224, 222,222 );
+    padding: 0px 42px;
+    padding-top: 20px;
+    font-size: large;
+}
+
+.other{
+    
+    text-align: center;
+    margin-top: 60px;
+    
+}
+.other img{
+    width: 190px;
+    margin:auto;
+
+    
+    
+}
+
+
+.adjust h1{
+    font-size: 70px;
+    text-align: center;
+    margin: 5px;
+    
+}
+
+.adjust p{
+    font-size: large;
+    text-align: center;
+}
+
+.labels{
+    width: 1250px;
+    margin-top: 100px;
+    margin-left: 50px;
+    padding-bottom: 20px;
+    
+
+}
+.labels a{
+    color: rgb(107, 106, 106);
+    text-decoration:none;
+    padding-bottom: 10px;
+    border-bottom: 5px solid rgb(163, 160, 160);
+
+}
+
+.label1{
+    padding: 0px 150px;
+    
+}
+.label1:hover{
+    color:black;
+    border-bottom-color: blue;
+    
+}
+.label2{
+    padding: 0px 150px;
+}
+.label2:hover{
+    color: black;
+     border-bottom-color:blue ;
+}
+.label3{
+    padding: 0px 100px;
+}
+.label3:hover{
+    color: black;
+    border-bottom-color: blue;
+}
+.title_1{
+        width: 40%;
+        margin-top: 100px;
+        padding:20px;
+        padding-left:60px;
+}
+.header_button1{
+    margin-top: 50px;
+    margin-left: 530px;
+    width: 300px;
+    text-align: center;
+    
+}
+
+.header_button1 a{
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px ;
+    border-radius: 5px;
+    display: block;
+    
+}
+
+.header_button_one1{
+    background-color:rgb(89, 89, 250);
+    color: white;
+
+    
+}
+
+.header_button_one1:hover{
+    background-color: rgb(37, 37, 168);
+}
+.header_button_two2{
+    color: dodgerblue;
+   }
+
+.header_button_two2:hover{
+    color: rgb(124, 124, 124);
+    background-color: rgb(236, 236, 236);
+    
+    
+}
+.last{
+    display: block;
+}
